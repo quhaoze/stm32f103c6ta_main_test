@@ -1,5 +1,5 @@
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj: \
- C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\syscalls.c \
+ F:\dc1git\stm32f103c6ta_main_test\Core\Src\syscalls.c \
  f:\clion_to_keil\gcc\102021.10\arm-none-eabi\include\sys\stat.h \
  f:\clion_to_keil\gcc\102021.10\arm-none-eabi\include\_ansi.h \
  f:\clion_to_keil\gcc\102021.10\arm-none-eabi\include\newlib.h \

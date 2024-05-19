@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/cmake-build-debug"
+			"value" : "f:/dc1git/stm32f103c6ta_main_test/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -719,7 +719,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -779,7 +779,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6"
+			"value" : "F:/dc1git/stm32f103c6ta_main_test"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1411,7 +1411,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/cmake-build-debug"
+			"value" : "F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug"
 		},
 		{
 			"name" : "STM32F103C6_IS_TOP_LEVEL",
@@ -1435,7 +1435,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6"
+			"value" : "F:/dc1git/stm32f103c6ta_main_test"
 		}
 	],
 	"kind" : "cache",

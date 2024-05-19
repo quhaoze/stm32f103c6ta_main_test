@@ -100,7 +100,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/quhao/CLion 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake"
   "C:/Users/quhao/CLion 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/Platform/Generic.cmake"
   "C:/Users/quhao/CLion 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/ProcessorCount.cmake"
-  "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/CMakeLists.txt"
+  "F:/dc1git/stm32f103c6ta_main_test/CMakeLists.txt"
   "CMakeFiles/3.24.2/CMakeASMCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"

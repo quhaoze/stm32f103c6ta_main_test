@@ -5,13 +5,13 @@
 # compile C with F:/clion_to_keil/gcc/102021.10/bin/arm-none-eabi-gcc.exe
 ASM_DEFINES = -DDEBUG -DSTM32F103x6 -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -IC:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Inc -IC:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Inc -IC:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IC:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IC:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\CMSIS\Include
+ASM_INCLUDES = -IF:\dc1git\stm32f103c6ta_main_test\Core\Inc -IF:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc -IF:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IF:\dc1git\stm32f103c6ta_main_test\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IF:\dc1git\stm32f103c6ta_main_test\Drivers\CMSIS\Include
 
 ASM_FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
 
 C_DEFINES = -DDEBUG -DSTM32F103x6 -DUSE_HAL_DRIVER
 
-C_INCLUDES = -IC:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Inc -IC:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Inc -IC:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IC:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IC:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\CMSIS\Include
+C_INCLUDES = -IF:\dc1git\stm32f103c6ta_main_test\Core\Inc -IF:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc -IF:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -IF:\dc1git\stm32f103c6ta_main_test\Drivers\CMSIS\Device\ST\STM32F1xx\Include -IF:\dc1git\stm32f103c6ta_main_test\Drivers\CMSIS\Include
 
 C_FLAGS = -g -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 

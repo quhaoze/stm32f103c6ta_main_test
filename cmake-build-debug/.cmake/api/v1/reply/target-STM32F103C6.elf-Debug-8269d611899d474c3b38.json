@@ -154,23 +154,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Core/Inc"
+					"path" : "F:/dc1git/stm32f103c6ta_main_test/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/CMSIS/Include"
+					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -275,23 +275,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Core/Inc"
+					"path" : "F:/dc1git/stm32f103c6ta_main_test/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/CMSIS/Include"
+					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
@@ -316,7 +316,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/cmake-build-debug/STM32F103C6.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug/STM32F103C6.map",
 				"role" : "flags"
 			},
 			{
@@ -341,7 +341,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/STM32F103C6TX_FLASH.ld",
+				"fragment" : "F:/dc1git/stm32f103c6ta_main_test/STM32F103C6TX_FLASH.ld",
 				"role" : "flags"
 			}
 		],

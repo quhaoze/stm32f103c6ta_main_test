@@ -52,10 +52,10 @@ RM = "C:\Users\quhao\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6
+CMAKE_SOURCE_DIR = F:\dc1git\stm32f103c6ta_main_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug
+CMAKE_BINARY_DIR = F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/STM32F103C6.elf.dir/depend.make
@@ -69,283 +69,283 @@ include CMakeFiles/STM32F103C6.elf.dir/progress.make
 include CMakeFiles/STM32F103C6.elf.dir/flags.make
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Core/Src/main.c
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/main.c
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\main.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\main.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Src\main.c
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\main.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\main.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Core\Src\main.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\main.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\main.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Src\main.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Core/Src/stm32f1xx_hal_msp.c
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/stm32f1xx_hal_msp.c
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\stm32f1xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\stm32f1xx_hal_msp.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_hal_msp.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Core\Src\stm32f1xx_hal_msp.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_hal_msp.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\stm32f1xx_hal_msp.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_hal_msp.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Src\stm32f1xx_hal_msp.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_hal_msp.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Core/Src/stm32f1xx_it.c
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/stm32f1xx_it.c
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_it.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\stm32f1xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_it.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\stm32f1xx_it.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_it.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Core\Src\stm32f1xx_it.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_it.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\stm32f1xx_it.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_it.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Src\stm32f1xx_it.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\stm32f1xx_it.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Core/Src/syscalls.c
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/syscalls.c
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\syscalls.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Src\syscalls.c
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\syscalls.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\syscalls.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Core\Src\syscalls.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\syscalls.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\syscalls.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Src\syscalls.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Core/Src/sysmem.c
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/sysmem.c
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\sysmem.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\sysmem.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Src\sysmem.c
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\sysmem.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\sysmem.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Core\Src\sysmem.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\sysmem.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Src/sysmem.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\sysmem.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\sysmem.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Src\sysmem.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\sysmem.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Core/Src/system_stm32f1xx.c
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/system_stm32f1xx.c
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\system_stm32f1xx.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\system_stm32f1xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\system_stm32f1xx.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\system_stm32f1xx.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\system_stm32f1xx.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Core\Src\system_stm32f1xx.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\system_stm32f1xx.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Src\system_stm32f1xx.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\system_stm32f1xx.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Src\system_stm32f1xx.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\system_stm32f1xx.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Startup/startup_stm32f103c6tx.s.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Core/Startup/startup_stm32f103c6tx.s.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Core/Startup/startup_stm32f103c6tx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building ASM object CMakeFiles/STM32F103C6.elf.dir/Core/Startup/startup_stm32f103c6tx.s.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STM32F103C6.elf.dir\Core\Startup\startup_stm32f103c6tx.s.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Startup\startup_stm32f103c6tx.s
+CMakeFiles/STM32F103C6.elf.dir/Core/Startup/startup_stm32f103c6tx.s.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Startup/startup_stm32f103c6tx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building ASM object CMakeFiles/STM32F103C6.elf.dir/Core/Startup/startup_stm32f103c6tx.s.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STM32F103C6.elf.dir\Core\Startup\startup_stm32f103c6tx.s.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Startup\startup_stm32f103c6tx.s
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Startup/startup_stm32f103c6tx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/STM32F103C6.elf.dir/Core/Startup/startup_stm32f103c6tx.s.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Startup\startup_stm32f103c6tx.s > CMakeFiles\STM32F103C6.elf.dir\Core\Startup\startup_stm32f103c6tx.s.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Core\Startup\startup_stm32f103c6tx.s > CMakeFiles\STM32F103C6.elf.dir\Core\Startup\startup_stm32f103c6tx.s.i
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Startup/startup_stm32f103c6tx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Startup/startup_stm32f103c6tx.s.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Core\Startup\startup_stm32f103c6tx.s -o CMakeFiles\STM32F103C6.elf.dir\Core\Startup\startup_stm32f103c6tx.s.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Startup\startup_stm32f103c6tx.s -o CMakeFiles\STM32F103C6.elf.dir\Core\Startup\startup_stm32f103c6tx.s.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.i
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c > CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.i
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.s
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c -o CMakeFiles\STM32F103C6.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.s
 
 # Object files for target STM32F103C6.elf
 STM32F103C6_elf_OBJECTS = \
@@ -395,12 +395,12 @@ STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src
 STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/build.make
 STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable STM32F103C6.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable STM32F103C6.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\STM32F103C6.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/cmake-build-debug/STM32F103C6.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/cmake-build-debug/STM32F103C6.bin"
-	arm-none-eabi-objcopy -Oihex C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/cmake-build-debug/STM32F103C6.elf C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/cmake-build-debug/STM32F103C6.hex
-	arm-none-eabi-objcopy -Obinary C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/cmake-build-debug/STM32F103C6.elf C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/cmake-build-debug/STM32F103C6.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug/STM32F103C6.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug/STM32F103C6.bin"
+	arm-none-eabi-objcopy -Oihex F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug/STM32F103C6.elf F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug/STM32F103C6.hex
+	arm-none-eabi-objcopy -Obinary F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug/STM32F103C6.elf F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug/STM32F103C6.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/STM32F103C6.elf.dir/build: STM32F103C6.elf
@@ -411,6 +411,6 @@ CMakeFiles/STM32F103C6.elf.dir/clean:
 .PHONY : CMakeFiles/STM32F103C6.elf.dir/clean
 
 CMakeFiles/STM32F103C6.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6 C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6 C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug C:\Users\quhao\Desktop\DC1\STM32TEST\stm32f103c6\STM32F103C6\cmake-build-debug\CMakeFiles\STM32F103C6.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\dc1git\stm32f103c6ta_main_test F:\dc1git\stm32f103c6ta_main_test F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles\STM32F103C6.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/STM32F103C6.elf.dir/depend
 

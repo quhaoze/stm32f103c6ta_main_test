@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6
+# Install script for directory: F:/dc1git/stm32f103c6ta_main_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/quhao/Desktop/DC1/STM32TEST/stm32f103c6/STM32F103C6/Core/Startup/startup_stm32f103c6tx.s
+F:/dc1git/stm32f103c6ta_main_test/Core/Startup/startup_stm32f103c6tx.s
 
