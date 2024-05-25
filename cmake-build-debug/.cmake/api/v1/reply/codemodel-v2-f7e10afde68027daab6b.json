@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "STM32F103C6.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-STM32F103C6.elf-Debug-8269d611899d474c3b38.json",
+					"jsonFile" : "target-STM32F103C6.elf-Debug-1cf946433772028b1857.json",
 					"name" : "STM32F103C6.elf",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug",
-		"source" : "F:/dc1git/stm32f103c6ta_main_test"
+		"build" : "D:/dcrj/stm32f103c6ta_main_test/cmake-build-debug",
+		"source" : "D:/dcrj/stm32f103c6ta_main_test"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 6
 	}
 }

@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "F:/clion_to_keil/gcc/102021.10/bin/arm-none-eabi-gcc.exe")
+set(CMAKE_C_COMPILER "D:/dcrj/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "10.3.1")
@@ -15,18 +15,19 @@ set(CMAKE_C23_COMPILE_FEATURES "c_std_23")
 
 set(CMAKE_C_PLATFORM_ID "")
 set(CMAKE_C_SIMULATE_ID "")
-set(CMAKE_C_COMPILER_FRONTEND_VARIANT "")
+set(CMAKE_C_COMPILER_FRONTEND_VARIANT "GNU")
 set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
 
 set(CMAKE_AR "arm-none-eabi-ar")
-set(CMAKE_C_COMPILER_AR "F:/clion_to_keil/gcc/102021.10/bin/arm-none-eabi-gcc-ar.exe")
-set(CMAKE_RANLIB "F:/clion_to_keil/gcc/102021.10/bin/arm-none-eabi-ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "F:/clion_to_keil/gcc/102021.10/bin/arm-none-eabi-gcc-ranlib.exe")
-set(CMAKE_LINKER "F:/clion_to_keil/gcc/102021.10/bin/arm-none-eabi-ld.exe")
+set(CMAKE_C_COMPILER_AR "D:/dcrj/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar.exe")
+set(CMAKE_RANLIB "D:/dcrj/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "D:/dcrj/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/dcrj/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ld.exe")
 set(CMAKE_MT "")
+set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
@@ -38,6 +39,7 @@ set(CMAKE_C_COMPILER_ID_RUN 1)
 set(CMAKE_C_SOURCE_FILE_EXTENSIONS c;m)
 set(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)
 set(CMAKE_C_LINKER_PREFERENCE 10)
+set(CMAKE_C_LINKER_DEPFILE_SUPPORTED TRUE)
 
 # Save compiler ABI information.
 set(CMAKE_C_SIZEOF_DATA_PTR "4")
@@ -66,7 +68,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "F:/clion_to_keil/gcc/102021.10/lib/gcc/arm-none-eabi/10.3.1/include;F:/clion_to_keil/gcc/102021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/dcrj/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include;D:/dcrj/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;D:/dcrj/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

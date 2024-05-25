@@ -93,7 +93,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				},
 				{
 					"backtrace" : 5,
@@ -130,9 +130,6 @@
 				{
 					"backtrace" : 8,
 					"fragment" : "-g"
-				},
-				{
-					"fragment" : "-std=gnu11"
 				}
 			],
 			"defines" : 
@@ -154,23 +151,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "F:/dc1git/stm32f103c6ta_main_test/Core/Inc"
+					"path" : "D:/dcrj/stm32f103c6ta_main_test/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "D:/dcrj/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/dcrj/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "D:/dcrj/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include"
+					"path" : "D:/dcrj/stm32f103c6ta_main_test/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -275,23 +272,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "F:/dc1git/stm32f103c6ta_main_test/Core/Inc"
+					"path" : "D:/dcrj/stm32f103c6ta_main_test/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "D:/dcrj/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/dcrj/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "D:/dcrj/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include"
+					"path" : "D:/dcrj/stm32f103c6ta_main_test/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
@@ -316,7 +313,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=F:/dc1git/stm32f103c6ta_main_test/cmake-build-debug/STM32F103C6.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/dcrj/stm32f103c6ta_main_test/cmake-build-debug/STM32F103C6.map",
 				"role" : "flags"
 			},
 			{
@@ -341,7 +338,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "F:/dc1git/stm32f103c6ta_main_test/STM32F103C6TX_FLASH.ld",
+				"fragment" : "D:/dcrj/stm32f103c6ta_main_test/STM32F103C6TX_FLASH.ld",
 				"role" : "flags"
 			}
 		],
