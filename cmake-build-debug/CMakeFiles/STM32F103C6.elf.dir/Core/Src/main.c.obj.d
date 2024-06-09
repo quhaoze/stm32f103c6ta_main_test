@@ -30,4 +30,7 @@ CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj: \
  F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_cortex.h \
  F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash.h \
  F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash_ex.h \
- F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h
+ F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_i2c.h \
+ F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
+ F:\dc1git\stm32f103c6ta_main_test\Core\Inc/oled.h \
+ F:\dc1git\stm32f103c6ta_main_test\Core\Inc/oledfont.h

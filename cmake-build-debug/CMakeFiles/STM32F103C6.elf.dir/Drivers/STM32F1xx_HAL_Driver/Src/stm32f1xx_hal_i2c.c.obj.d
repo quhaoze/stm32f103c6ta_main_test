@@ -1,6 +1,5 @@
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj: \
- F:\dc1git\stm32f103c6ta_main_test\Core\Src\stm32f1xx_it.c \
- F:\dc1git\stm32f103c6ta_main_test\Core\Inc/main.h \
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: \
+ F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c \
  F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal.h \
  F:\dc1git\stm32f103c6ta_main_test\Core\Inc/stm32f1xx_hal_conf.h \
  F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_rcc.h \
@@ -31,5 +30,4 @@ CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj: \
  F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash.h \
  F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash_ex.h \
  F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_i2c.h \
- F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
- F:\dc1git\stm32f103c6ta_main_test\Core\Inc/stm32f1xx_it.h
+ F:\dc1git\stm32f103c6ta_main_test\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h

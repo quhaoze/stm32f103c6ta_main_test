@@ -32,7 +32,48 @@ CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj: F:/dc1git/stm32f103c6ta_main
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
-  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  F:/dc1git/stm32f103c6ta_main_test/Core/Inc/oled.h \
+  F:/dc1git/stm32f103c6ta_main_test/Core/Inc/oledfont.h
+
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/oled.c \
+  F:/dc1git/stm32f103c6ta_main_test/Core/Inc/oled.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
+  F:/dc1git/stm32f103c6ta_main_test/Core/Inc/stm32f1xx_hal_conf.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include/core_cm3.h \
+  F:/clion_to_keil/gcc/102021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/stdint.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/machine/_default_types.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/features.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/_newlib_version.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/_intsup.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/_stdint.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include/cmsis_version.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include/cmsis_compiler.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include/cmsis_gcc.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  F:/clion_to_keil/gcc/102021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+  F:/dc1git/stm32f103c6ta_main_test/Core/Inc/oledfont.h
+
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/oledfont.c \
+  F:/dc1git/stm32f103c6ta_main_test/Core/Inc/oledfont.h
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/stm32f1xx_hal_msp.c \
   F:/dc1git/stm32f103c6ta_main_test/Core/Inc/main.h \
@@ -65,6 +106,7 @@ CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: F:/dc1git/stm32
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/stm32f1xx_it.c \
@@ -98,6 +140,7 @@ CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj: F:/dc1git/stm32f103c
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
   F:/dc1git/stm32f103c6ta_main_test/Core/Inc/stm32f1xx_it.h
 
@@ -196,6 +239,7 @@ CMakeFiles/STM32F103C6.elf.dir/Core/Src/system_stm32f1xx.c.obj: F:/dc1git/stm32f
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c \
@@ -228,6 +272,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c \
@@ -260,6 +305,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_co
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c \
@@ -292,6 +338,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dm
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c \
@@ -324,6 +371,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_ex
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c \
@@ -356,6 +404,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_fl
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c \
@@ -388,6 +437,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_fl
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c \
@@ -420,6 +470,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gp
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c \
@@ -452,6 +503,40 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gp
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+
+CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
+  F:/dc1git/stm32f103c6ta_main_test/Core/Inc/stm32f1xx_hal_conf.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include/core_cm3.h \
+  F:/clion_to_keil/gcc/102021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/stdint.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/machine/_default_types.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/features.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/_newlib_version.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/_intsup.h \
+  F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/_stdint.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include/cmsis_version.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include/cmsis_compiler.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include/cmsis_gcc.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  F:/clion_to_keil/gcc/102021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c \
@@ -484,6 +569,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pw
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c \
@@ -516,6 +602,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rc
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c \
@@ -548,6 +635,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rc
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c \
@@ -580,6 +668,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_ti
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c \
@@ -612,6 +701,7 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_ti
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+  F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
   F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 
 
@@ -641,23 +731,29 @@ F:/dc1git/stm32f103c6ta_main_test/Core/Inc/main.h:
 
 F:/dc1git/stm32f103c6ta_main_test/Core/Inc/stm32f1xx_hal_conf.h:
 
+F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h:
+
 F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h:
 
 F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:
 
 F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/machine/ieeefp.h:
 
+F:/dc1git/stm32f103c6ta_main_test/Core/Src/oledfont.c:
+
 F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:
 
 F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:
+
+F:/dc1git/stm32f103c6ta_main_test/Core/Inc/oledfont.h:
 
 F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
 
 F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Include/core_cm3.h:
 
-F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/machine/_default_types.h:
-
 F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/errno.h:
+
+F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/machine/_default_types.h:
 
 F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/_newlib_version.h:
 
@@ -679,19 +775,17 @@ F:/clion_to_keil/gcc/102021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
 
 F:/dc1git/stm32f103c6ta_main_test/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h:
 
+F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/stdlib.h:
+
 F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/stat.h:
 
 F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/timespec.h:
-
-F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/stdlib.h:
 
 F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h:
 
 F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/config.h:
 
 F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h:
-
-F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/_locale.h:
 
 F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:
 
@@ -704,6 +798,14 @@ F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal
 F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:
 
 F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
+
+F:/dc1git/stm32f103c6ta_main_test/Core/Inc/oled.h:
+
+F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/stdio.h:
+
+F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/newlib.h:
+
+F:/dc1git/stm32f103c6ta_main_test/Core/Src/oled.c:
 
 F:/dc1git/stm32f103c6ta_main_test/Core/Src/stm32f1xx_it.c:
 
@@ -718,10 +820,6 @@ F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/_timeval.h:
 F:/dc1git/stm32f103c6ta_main_test/Core/Src/syscalls.c:
 
 F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/_ansi.h:
-
-F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/stdio.h:
-
-F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/newlib.h:
 
 F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/cdefs.h:
 
@@ -742,6 +840,8 @@ F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/_timespec.h:
 F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/_pthreadtypes.h:
 
 F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/machine/types.h:
+
+F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/sys/_locale.h:
 
 F:/clion_to_keil/gcc/102021.10/arm-none-eabi/include/machine/stdlib.h:
 
@@ -780,6 +880,8 @@ F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal
 F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c:
 
 F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c:
+
+F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c:
 
 F:/dc1git/stm32f103c6ta_main_test/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c:
 
