@@ -26,6 +26,9 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+int work_mode = 1;
+int speed_of_wheels = 500;
+int battery = 100;
 
 /* USER CODE END PTD */
 
@@ -56,7 +59,40 @@ static void MX_I2C1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void show_work_situtation(void)
+{
+    if(work_mode=1)
+    {
 
+        //工作模式
+        OLED_ShowCHinese(0,0,0,0);
+        OLED_ShowCHinese(16,0,1,0);//显示汉字
+        OLED_ShowCHinese(32,0,2,0);
+        OLED_ShowCHinese(48,0,3,0);
+        OLED_ShowCHinese(64,0,4,0);
+        //当前转速
+        OLED_ShowCHinese(0,2,5,0);
+        OLED_ShowCHinese(16,2,6,0);//显示汉字
+        OLED_ShowCHinese(32,2,7,0);
+        OLED_ShowCHinese(48,2,8,0);
+        OLED_ShowCHinese(64,2,9,0);
+        //剩余电量
+        OLED_ShowCHinese(0,4,10,0);
+        OLED_ShowCHinese(16,4,11,0);//显示汉字
+        OLED_ShowCHinese(32,4,12,0);
+        OLED_ShowCHinese(48,4,13,0);
+        OLED_ShowCHinese(64,4,14,0);
+        //0是屏幕最上方，y越大越往下，最大是6，从0到1为半个字宽度，
+        //工作模式的数字
+        OLED_ShowNum(80,0,work_mode,1,16, 0);
+        //转速的数字
+        OLED_ShowNum(80,2,speed_of_wheels,3,16, 0);
+        //剩余电量的数字
+        OLED_ShowNum(80,4,battery,3,16, 0);
+
+
+    }
+}
 /* USER CODE END 0 */
 
 /**
@@ -110,15 +146,28 @@ int main(void)
       HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,1);
       OLED_Clear();
       HAL_GPIO_WritePin(GPIOA,GPIO_PIN_2,1);
+      show_work_situtation();
       while (1)
       {
-          HAL_Delay(100);
-          HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_3);
-          OLED_ShowNum(0, 1, 3, 1, 16, 1);
+          HAL_Delay(1000);
+          OLED_Clear();
+          if((speed_of_wheels%2) == 1)
+          {
+              speed_of_wheels++;
+          }
+          else
+          {
+              speed_of_wheels--;
+          }
+          show_work_situtation();
+          HAL_Delay(1000);
 
-          OLED_ShowString(0, 5, "hello world", 16, 1);
+          //HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_3);
+          //OLED_ShowNum(0, 1, 3, 1, 16, 1);
 
-          HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_4);
+          //OLED_ShowString(0, 5, "hello world", 16, 1);
+
+          //HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_4);
 
       }
     /* USER CODE END WHILE */
