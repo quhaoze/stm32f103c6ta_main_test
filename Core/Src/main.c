@@ -96,20 +96,35 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_1);
-      HAL_Delay(100);
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,1);
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_2,1);
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,1);
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_4,1);
+      HAL_Delay(1000);
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,0);
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_2,0);
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,0);
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_4,0);
       //现在是test分支
       OLED_Init();                           //OLED初始
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,1);
       OLED_Clear();
-      while (1) {
-          /* USER CODE END WHILE */
-
-          /* USER CODE BEGIN 3 */
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_2,1);
+      while (1)
+      {
+          HAL_Delay(100);
+          HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_3);
           OLED_ShowNum(0, 1, 3, 1, 16, 1);
 
-          OLED_ShowString(0, 5, "hellow world", 16, 1);
+          OLED_ShowString(0, 5, "hello world", 16, 1);
+
+          HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_4);
 
       }
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+
 
       /* USER CODE END WHILE */
 
@@ -203,19 +218,40 @@ static void MX_GPIO_Init(void)
 /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : PA1 */
-  GPIO_InitStruct.Pin = GPIO_PIN_1;
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, GPIO_PIN_SET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_RESET);
+
+  /*Configure GPIO pins : PA1 PA2 PA3 PA4 */
+  GPIO_InitStruct.Pin = GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PB4 */
+  GPIO_InitStruct.Pin = GPIO_PIN_4;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PB5 */
+  GPIO_InitStruct.Pin = GPIO_PIN_5;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
