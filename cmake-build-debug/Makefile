@@ -128,6 +128,54 @@ STM32F103C6.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/build
 .PHONY : STM32F103C6.elf/fast
 
+Core/Src/OLED.obj: Core/Src/OLED.c.obj
+.PHONY : Core/Src/OLED.obj
+
+# target to build an object file
+Core/Src/OLED.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.obj
+.PHONY : Core/Src/OLED.c.obj
+
+Core/Src/OLED.i: Core/Src/OLED.c.i
+.PHONY : Core/Src/OLED.i
+
+# target to preprocess a source file
+Core/Src/OLED.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.i
+.PHONY : Core/Src/OLED.c.i
+
+Core/Src/OLED.s: Core/Src/OLED.c.s
+.PHONY : Core/Src/OLED.s
+
+# target to generate assembly for a file
+Core/Src/OLED.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.s
+.PHONY : Core/Src/OLED.c.s
+
+Core/Src/OLED_Data.obj: Core/Src/OLED_Data.c.obj
+.PHONY : Core/Src/OLED_Data.obj
+
+# target to build an object file
+Core/Src/OLED_Data.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.obj
+.PHONY : Core/Src/OLED_Data.c.obj
+
+Core/Src/OLED_Data.i: Core/Src/OLED_Data.c.i
+.PHONY : Core/Src/OLED_Data.i
+
+# target to preprocess a source file
+Core/Src/OLED_Data.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.i
+.PHONY : Core/Src/OLED_Data.c.i
+
+Core/Src/OLED_Data.s: Core/Src/OLED_Data.c.s
+.PHONY : Core/Src/OLED_Data.s
+
+# target to generate assembly for a file
+Core/Src/OLED_Data.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.s
+.PHONY : Core/Src/OLED_Data.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -151,54 +199,6 @@ Core/Src/main.s: Core/Src/main.c.s
 Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
-
-Core/Src/oled.obj: Core/Src/oled.c.obj
-.PHONY : Core/Src/oled.obj
-
-# target to build an object file
-Core/Src/oled.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.obj
-.PHONY : Core/Src/oled.c.obj
-
-Core/Src/oled.i: Core/Src/oled.c.i
-.PHONY : Core/Src/oled.i
-
-# target to preprocess a source file
-Core/Src/oled.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.i
-.PHONY : Core/Src/oled.c.i
-
-Core/Src/oled.s: Core/Src/oled.c.s
-.PHONY : Core/Src/oled.s
-
-# target to generate assembly for a file
-Core/Src/oled.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.s
-.PHONY : Core/Src/oled.c.s
-
-Core/Src/oledfont.obj: Core/Src/oledfont.c.obj
-.PHONY : Core/Src/oledfont.obj
-
-# target to build an object file
-Core/Src/oledfont.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.obj
-.PHONY : Core/Src/oledfont.c.obj
-
-Core/Src/oledfont.i: Core/Src/oledfont.c.i
-.PHONY : Core/Src/oledfont.i
-
-# target to preprocess a source file
-Core/Src/oledfont.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.i
-.PHONY : Core/Src/oledfont.c.i
-
-Core/Src/oledfont.s: Core/Src/oledfont.c.s
-.PHONY : Core/Src/oledfont.s
-
-# target to generate assembly for a file
-Core/Src/oledfont.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F103C6.elf.dir\build.make CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.s
-.PHONY : Core/Src/oledfont.c.s
 
 Core/Src/stm32f1xx_hal_msp.obj: Core/Src/stm32f1xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f1xx_hal_msp.obj
@@ -673,15 +673,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... STM32F103C6.elf
+	@echo ... Core/Src/OLED.obj
+	@echo ... Core/Src/OLED.i
+	@echo ... Core/Src/OLED.s
+	@echo ... Core/Src/OLED_Data.obj
+	@echo ... Core/Src/OLED_Data.i
+	@echo ... Core/Src/OLED_Data.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
-	@echo ... Core/Src/oled.obj
-	@echo ... Core/Src/oled.i
-	@echo ... Core/Src/oled.s
-	@echo ... Core/Src/oledfont.obj
-	@echo ... Core/Src/oledfont.i
-	@echo ... Core/Src/oledfont.s
 	@echo ... Core/Src/stm32f1xx_hal_msp.obj
 	@echo ... Core/Src/stm32f1xx_hal_msp.i
 	@echo ... Core/Src/stm32f1xx_hal_msp.s

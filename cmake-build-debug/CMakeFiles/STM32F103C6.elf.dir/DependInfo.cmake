@@ -30,9 +30,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "F:/dc1git/stm32f103c6ta_main_test/Core/Src/OLED.c" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.obj" "gcc" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.obj.d"
+  "F:/dc1git/stm32f103c6ta_main_test/Core/Src/OLED_Data.c" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.obj" "gcc" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.obj.d"
   "F:/dc1git/stm32f103c6ta_main_test/Core/Src/main.c" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj.d"
-  "F:/dc1git/stm32f103c6ta_main_test/Core/Src/oled.c" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.obj" "gcc" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.obj.d"
-  "F:/dc1git/stm32f103c6ta_main_test/Core/Src/oledfont.c" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.obj" "gcc" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.obj.d"
   "F:/dc1git/stm32f103c6ta_main_test/Core/Src/stm32f1xx_hal_msp.c" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" "gcc" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj.d"
   "F:/dc1git/stm32f103c6ta_main_test/Core/Src/stm32f1xx_it.c" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj" "gcc" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj.d"
   "F:/dc1git/stm32f103c6ta_main_test/Core/Src/syscalls.c" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj.d"

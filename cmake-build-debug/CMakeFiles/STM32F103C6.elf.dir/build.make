@@ -68,10 +68,38 @@ include CMakeFiles/STM32F103C6.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/STM32F103C6.elf.dir/flags.make
 
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/OLED.c
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\OLED.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\OLED.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Src\OLED.c
+
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.i"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Core\Src\OLED.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\OLED.c.i
+
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.s"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Src\OLED.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\OLED.c.s
+
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/OLED_Data.c
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.obj"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\OLED_Data.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\OLED_Data.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Src\OLED_Data.c
+
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.i"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Core\Src\OLED_Data.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\OLED_Data.c.i
+
+CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.s"
+	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Src\OLED_Data.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\OLED_Data.c.s
+
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/main.c
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj"
 	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\main.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Src\main.c
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.i: cmake_force
@@ -81,34 +109,6 @@ CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.i: cmake_force
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.s"
 	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Src\main.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\main.c.s
-
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/oled.c
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\oled.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\oled.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Src\oled.c
-
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Core\Src\oled.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\oled.c.i
-
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Src\oled.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\oled.c.s
-
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/oledfont.c
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.obj: CMakeFiles/STM32F103C6.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\dc1git\stm32f103c6ta_main_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.obj"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.obj -MF CMakeFiles\STM32F103C6.elf.dir\Core\Src\oledfont.c.obj.d -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\oledfont.c.obj -c F:\dc1git\stm32f103c6ta_main_test\Core\Src\oledfont.c
-
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.i"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\dc1git\stm32f103c6ta_main_test\Core\Src\oledfont.c > CMakeFiles\STM32F103C6.elf.dir\Core\Src\oledfont.c.i
-
-CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.s"
-	F:\clion_to_keil\gcc\102021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\dc1git\stm32f103c6ta_main_test\Core\Src\oledfont.c -o CMakeFiles\STM32F103C6.elf.dir\Core\Src\oledfont.c.s
 
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/STM32F103C6.elf.dir/flags.make
 CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: F:/dc1git/stm32f103c6ta_main_test/Core/Src/stm32f1xx_hal_msp.c
@@ -391,9 +391,9 @@ CMakeFiles/STM32F103C6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_ti
 
 # Object files for target STM32F103C6.elf
 STM32F103C6_elf_OBJECTS = \
+"CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.obj" \
+"CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.obj" \
 "CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj" \
-"CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.obj" \
-"CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.obj" \
 "CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" \
 "CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj" \
 "CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj" \
@@ -418,9 +418,9 @@ STM32F103C6_elf_OBJECTS = \
 # External object files for target STM32F103C6.elf
 STM32F103C6_elf_EXTERNAL_OBJECTS =
 
+STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED.c.obj
+STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/Core/Src/OLED_Data.c.obj
 STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/Core/Src/main.c.obj
-STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/Core/Src/oled.c.obj
-STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/Core/Src/oledfont.c.obj
 STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
 STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/Core/Src/stm32f1xx_it.c.obj
 STM32F103C6.elf: CMakeFiles/STM32F103C6.elf.dir/Core/Src/syscalls.c.obj

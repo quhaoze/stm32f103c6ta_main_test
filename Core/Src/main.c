@@ -21,7 +21,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "oled.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -54,7 +53,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_I2C1_Init(void);
 /* USER CODE BEGIN PFP */
-
+#include "OLED.h"
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -64,31 +63,7 @@ void show_work_situtation(void)
     if(work_mode=1)
     {
 
-        //工作模式
-        OLED_ShowCHinese(0,0,0,0);
-        OLED_ShowCHinese(16,0,1,0);//显示汉字
-        OLED_ShowCHinese(32,0,2,0);
-        OLED_ShowCHinese(48,0,3,0);
-        OLED_ShowCHinese(64,0,4,0);
-        //当前转速
-        OLED_ShowCHinese(0,2,5,0);
-        OLED_ShowCHinese(16,2,6,0);//显示汉字
-        OLED_ShowCHinese(32,2,7,0);
-        OLED_ShowCHinese(48,2,8,0);
-        OLED_ShowCHinese(64,2,9,0);
-        //剩余电量
-        OLED_ShowCHinese(0,4,10,0);
-        OLED_ShowCHinese(16,4,11,0);//显示汉字
-        OLED_ShowCHinese(32,4,12,0);
-        OLED_ShowCHinese(48,4,13,0);
-        OLED_ShowCHinese(64,4,14,0);
-        //0是屏幕最上方，y越大越往下，最大是6，从0到1为半个字宽度，
-        //工作模式的数字
-        OLED_ShowNum(80,0,work_mode,1,16, 0);
-        //转速的数字
-        OLED_ShowNum(80,2,speed_of_wheels,3,16, 0);
-        //剩余电量的数字
-        OLED_ShowNum(80,4,battery,3,16, 0);
+
 
 
     }
@@ -142,15 +117,114 @@ int main(void)
       HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,0);
       HAL_GPIO_WritePin(GPIOA,GPIO_PIN_4,0);
       //现在是test分支
-      OLED_Init();                           //OLED初始
+      OLED_Init();//OLED初始
       HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,1);
+      /*在(16, 0)位置显示字符串"Hello World!"，字体大小为8*16点阵*/
+      OLED_ShowString(0, 0, "blog.zeruns.tech", OLED_8X16);
+      /*在(0, 18)位置显示字符'A'，字体大小为6*8点阵*/
+      OLED_ShowChar(0, 18, 'A', OLED_6X8);
+
+      /*在(16, 18)位置显示字符串"Hello World!"，字体大小为6*8点阵*/
+      OLED_ShowString(16, 18, "Hello World!", OLED_6X8);
+
+      /*在(0, 28)位置显示数字12345，长度为5，字体大小为6*8点阵*/
+      OLED_ShowNum(0, 28, 12345, 5, OLED_6X8);
+
+      /*在(40, 28)位置显示有符号数字-66，长度为2，字体大小为6*8点阵*/
+      OLED_ShowSignedNum(40, 28, -66, 2, OLED_6X8);
+
+      /*在(70, 28)位置显示十六进制数字0xA5A5，长度为4，字体大小为6*8点阵*/
+      OLED_ShowHexNum(70, 28, 0xA5A5, 4, OLED_6X8);
+
+      /*在(0, 38)位置显示二进制数字0xA5，长度为8，字体大小为6*8点阵*/
+      OLED_ShowBinNum(0, 38, 0xA5, 8, OLED_6X8);
+
+      /*在(60, 38)位置显示浮点数字123.45，整数部分长度为3，小数部分长度为2，字体大小为6*8点阵*/
+      OLED_ShowFloatNum(60, 38, 123.45, 3, 2, OLED_6X8);
+
+      /*在(0, 48)位置显示汉字串"你好，世界。"，字体大小为固定的16*16点阵*/
+      OLED_ShowChinese(0, 48, "你好，世界。");
+
+      /*在(96, 48)位置显示图像，宽16像素，高16像素，图像数据为Diode数组*/
+      OLED_ShowImage(96, 48, 16, 16, Diode);
+
+      /*在(96, 18)位置打印格式化字符串，字体大小为6*8点阵，格式化字符串为"[%02d]"*/
+      OLED_Printf(96, 18, OLED_6X8, "[%02d]", 6);
+
+      /*调用OLED_Update函数，将OLED显存数组的内容更新到OLED硬件进行显示*/
+      OLED_Update();
+
+     // HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin); // LED电平翻转
+      /*延时3000ms，观察现象*/
+      HAL_Delay(3000);
+
+      /*清空OLED显存数组*/
       OLED_Clear();
+
+      /*在(5, 8)位置画点*/
+      OLED_DrawPoint(5, 8);
+
+      /*获取(5, 8)位置的点*/
+      if (OLED_GetPoint(5, 8))
+      {
+          /*如果指定点点亮，则在(10, 4)位置显示字符串"YES"，字体大小为6*8点阵*/
+          OLED_ShowString(10, 4, "YES", OLED_6X8);
+      }
+      else
+      {
+          /*如果指定点未点亮，则在(10, 4)位置显示字符串"NO "，字体大小为6*8点阵*/
+          OLED_ShowString(10, 4, "NO ", OLED_6X8);
+      }
+
+      /*在(40, 0)和(127, 15)位置之间画直线*/
+      OLED_DrawLine(40, 0, 127, 15);
+
+      /*在(40, 15)和(127, 0)位置之间画直线*/
+      OLED_DrawLine(40, 15, 127, 0);
+
+      /*在(0, 20)位置画矩形，宽12像素，高15像素，未填充*/
+      OLED_DrawRectangle(0, 20, 12, 15, OLED_UNFILLED);
+
+      /*在(0, 40)位置画矩形，宽12像素，高15像素，填充*/
+      OLED_DrawRectangle(0, 40, 12, 15, OLED_FILLED);
+
+      /*在(20, 20)、(40, 25)和(30, 35)位置之间画三角形，未填充*/
+      OLED_DrawTriangle(20, 20, 40, 25, 30, 35, OLED_UNFILLED);
+
+      /*在(20, 40)、(40, 45)和(30, 55)位置之间画三角形，填充*/
+      OLED_DrawTriangle(20, 40, 40, 45, 30, 55, OLED_FILLED);
+
+      /*在(55, 27)位置画圆，半径8像素，未填充*/
+      OLED_DrawCircle(55, 27, 8, OLED_UNFILLED);
+
+      /*在(55, 47)位置画圆，半径8像素，填充*/
+      OLED_DrawCircle(55, 47, 8, OLED_FILLED);
+
+      /*在(82, 27)位置画椭圆，横向半轴12像素，纵向半轴8像素，未填充*/
+      OLED_DrawEllipse(82, 27, 12, 8, OLED_UNFILLED);
+      // https://blog.zeruns.tech
+      /*在(82, 47)位置画椭圆，横向半轴12像素，纵向半轴8像素，填充*/
+      OLED_DrawEllipse(82, 47, 12, 8, OLED_FILLED);
+
+      /*在(110, 18)位置画圆弧，半径15像素，起始角度25度，终止角度125度，未填充*/
+      OLED_DrawArc(110, 18, 15, 25, 125, OLED_UNFILLED);
+
+      /*在(110, 38)位置画圆弧，半径15像素，起始角度25度，终止角度125度，填充*/
+      OLED_DrawArc(110, 38, 15, 25, 125, OLED_FILLED);
+
+      /*调用OLED_Update函数，将OLED显存数组的内容更新到OLED硬件进行显示*/
+      OLED_Update();
+
+     // HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin); // LED电平翻转
+
+      /*延时1500ms，观察现象*/
+      HAL_Delay(1500);
+
       HAL_GPIO_WritePin(GPIOA,GPIO_PIN_2,1);
-      show_work_situtation();
+
       while (1)
       {
           HAL_Delay(1000);
-          OLED_Clear();
           if((speed_of_wheels%2) == 1)
           {
               speed_of_wheels++;
@@ -159,7 +233,6 @@ int main(void)
           {
               speed_of_wheels--;
           }
-          show_work_situtation();
           HAL_Delay(1000);
 
           //HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_3);
@@ -237,7 +310,7 @@ static void MX_I2C1_Init(void)
 
   /* USER CODE END I2C1_Init 1 */
   hi2c1.Instance = I2C1;
-  hi2c1.Init.ClockSpeed = 100000;
+  hi2c1.Init.ClockSpeed = 400000;
   hi2c1.Init.DutyCycle = I2C_DUTYCYCLE_2;
   hi2c1.Init.OwnAddress1 = 0;
   hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
