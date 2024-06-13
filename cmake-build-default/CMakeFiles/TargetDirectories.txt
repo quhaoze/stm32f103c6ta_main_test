@@ -1,0 +1,3 @@
+F:/dc1git/stm32f103c6ta_main_test/cmake-build-default/CMakeFiles/STM32F103C6.elf.dir
+F:/dc1git/stm32f103c6ta_main_test/cmake-build-default/CMakeFiles/edit_cache.dir
+F:/dc1git/stm32f103c6ta_main_test/cmake-build-default/CMakeFiles/rebuild_cache.dir
